@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74A1937F-ADA5-4232-82D2-34E63AB6A1C4}|TXTC-day1\\TXTC-day1.csproj|e:\\ltwnam3\\txtuancuong-cntt2.ltw\\txtc-day1\\txtc-day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74A1937F-ADA5-4232-82D2-34E63AB6A1C4}|TXTC-day1\\TXTC-day1.csproj|solutionrelative:txtc-day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5D6447-FDE2-43A4-1EBD-433CCC94CC50}|TXTC-day1\\TXTC-day1.csproj|e:\\ltwnam3\\txtuancuong-cntt2.ltw\\txtc-day1\\txtc-day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5D6447-FDE2-43A4-1EBD-433CCC94CC50}|TXTC-day1\\TXTC-day1.csproj|solutionrelative:txtc-day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5D6447-FDE2-43A4-1EBD-433CCC94CC50}|TXTC-day1\\TXTC-day1.csproj|e:\\ltwnam3\\txtuancuong-cntt2.ltw\\txtc-day1\\txtc-day1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5D6447-FDE2-43A4-1EBD-433CCC94CC50}|TXTC-day1\\TXTC-day1.csproj|solutionrelative:txtc-day1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\TXTC-day1\\Student.cs",
+              "RelativeDocumentMoniker": "TXTC-day1\\Student.cs",
+              "ToolTip": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\TXTC-day1\\Student.cs",
+              "RelativeToolTip": "TXTC-day1\\Student.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T12:29:25.359Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\TXTC-day1\\Program.cs",
               "RelativeDocumentMoniker": "TXTC-day1\\Program.cs",
-              "ToolTip": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\TXTC-day1\\Program.cs",
-              "RelativeToolTip": "TXTC-day1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ToolTip": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\TXTC-day1\\Program.cs*",
+              "RelativeToolTip": "TXTC-day1\\Program.cs*",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAiwEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-15T11:03:11.629Z",
               "EditorCaption": ""

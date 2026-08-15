@@ -12,3 +12,5 @@ E:\LTWnam3\TXTuanCuong-cntt2.LTW\TXTC-day1\TXTC-day1\obj\Debug\net10.0\refint\TX
 E:\LTWnam3\TXTuanCuong-cntt2.LTW\TXTC-day1\TXTC-day1\obj\Debug\net10.0\TXTC-day1.pdb
 E:\LTWnam3\TXTuanCuong-cntt2.LTW\TXTC-day1\TXTC-day1\obj\Debug\net10.0\TXTC-day1.genruntimeconfig.cache
 E:\LTWnam3\TXTuanCuong-cntt2.LTW\TXTC-day1\TXTC-day1\obj\Debug\net10.0\ref\TXTC-day1.dll
+E:\LTWnam3\TXTuanCuong-cntt2.LTW\TXTC-day1\TXTC-day1\obj\Debug\net10.0\TXTC-day1.sourcelink.json
+E:\LTWnam3\TXTuanCuong-cntt2.LTW\TXTC-day1\TXTC-day1\obj\Debug\net10.0\TXTC-day1.csproj.Up2Date
