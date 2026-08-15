@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74A1937F-ADA5-4232-82D2-34E63AB6A1C4}|TXTC-day1\\TXTC-day1.csproj|e:\\ltwnam3\\txtuancuong-cntt2.ltw\\txtc-day1\\txtc-day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A1937F-ADA5-4232-82D2-34E63AB6A1C4}|TXTC-day1\\TXTC-day1.csproj|solutionrelative:txtc-day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\TXTC-day1\\Program.cs",
+              "RelativeDocumentMoniker": "TXTC-day1\\Program.cs",
+              "ToolTip": "E:\\LTWnam3\\TXTuanCuong-cntt2.LTW\\TXTC-day1\\TXTC-day1\\Program.cs",
+              "RelativeToolTip": "TXTC-day1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T11:03:11.629Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
