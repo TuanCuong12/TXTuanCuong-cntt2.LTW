@@ -1,0 +1,12 @@
+﻿@{
+	ViewData["Title"] = "Thông tin liên hệ";
+}
+
+<div class="alert alert-danger" role="alert">
+	<h1>@ViewData["Title"]</h1>
+	<hr />
+	<h2>PT Name: @ViewBag.name</h2>
+	<h2>Job: @ViewData["Job"]</h2>
+	<h2>Address: @TempData["Address"]</h2>
+</div>
+

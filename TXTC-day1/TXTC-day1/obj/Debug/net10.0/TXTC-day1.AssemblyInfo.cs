@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TXTC-day1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3702241a128eb4775a1d7e01cb8d609596d9c451")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+027e64b4210594306bea2053223b74c0f2890cc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TXTC-day1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TXTC-day1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

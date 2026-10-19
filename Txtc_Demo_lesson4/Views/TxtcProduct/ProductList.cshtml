@@ -1,0 +1,37 @@
+﻿@{
+	ViewData["Title"] = "Danh sách sản phẩm";
+	var products = ViewData["Products"] as List<Txtc_Demo_lesson3.Models.TxtcProduct>;
+	var stt = 0;
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Quantity</th>
+			<th>Price</th>
+			<th>Money</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var product in products)
+		{
+			stt++;
+			<tr>
+				<td>@stt</td>
+				<td>@product.idProduct</td>
+				<td>@product.nameProduct</td>
+				<td>@product.quantityProduct</td>
+				<td>@product.priceProduct.ToString("C")</td>
+				<td>@(product.quantityProduct * product.priceProduct)</td>
+				<td>
+					<a href="" class="btn btn-primary">Edit</a>
+					<a href="" class="btn btn-danger">Delete</a>
+			</tr>
+		}
+	</tbody>

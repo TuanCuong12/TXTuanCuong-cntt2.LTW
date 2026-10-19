@@ -1,0 +1,23 @@
+﻿@{
+	ViewData["Title"] = "Product information";
+	var Product = ViewData["ProductVD"] as Txtc_Demo_lesson3.Models.TxtcProduct;
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+<div class="alert alert-danger" role="alert">
+	<h2>Lấy từ ViewBag</h2>
+	<p>ID: @ViewBag.ProductVB.idProduct</p>
+	<p>Name: @ViewBag.ProductVB.nameProduct</p>
+	<p>Quantity: @ViewBag.ProductVB.quantityProduct</p>
+	<p>Price: @ViewBag.ProductVB.priceProduct</p>
+</div>
+
+<div class="alert alert-info" role="alert">
+	<h2>Lấy từ ViewData</h2>
+	<p>ID: @Product.idProduct</p>
+	<p>Name: @Product.nameProduct</p>
+	<p>Quantity: @Product.quantityProduct</p>
+	<p>Price: @Product.priceProduct</p>
+</div>
