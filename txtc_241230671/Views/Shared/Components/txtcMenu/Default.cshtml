@@ -1,0 +1,14 @@
+﻿@using txtc_241230671.Helpers
+@model List<TheLoai>
+
+<ul class="menu" id="menu">
+    <li class="active">
+        <a asp-controller="Home" asp-action="Index" class="js-theloai" data-id="0">@AppInfo.HoTen</a>
+    </li>
+    @foreach (var tl in Model)
+    {
+        <li>
+            <a asp-controller="Home" asp-action="Index" asp-route-maTL="@tl.MaTl" class="js-theloai" data-id="@tl.MaTl">@tl.TenTl</a>
+        </li>
+    }
+</ul>

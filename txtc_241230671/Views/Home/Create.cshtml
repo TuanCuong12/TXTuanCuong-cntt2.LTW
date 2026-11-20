@@ -1,0 +1,41 @@
+﻿@model Sach
+@{
+    ViewData["Title"] = "Thêm sách";
+}
+
+<div class="section-head"><h3>Thêm sách mới</h3></div>
+
+<form asp-controller="Home" asp-action="Create" method="post" class="form-box">
+    <div asp-validation-summary="All" class="text-error"></div>
+
+    <div class="form-row">
+        <label asp-for="MaTl"></label>
+        <select asp-for="MaTl" asp-items="(SelectList)ViewBag.MaTl">
+            <option value="">-- Chọn thể loại --</option>
+        </select>
+        <span asp-validation-for="MaTl" class="text-error"></span>
+    </div>
+
+    <div class="form-row">
+        <label asp-for="TenSach"></label>
+        <input asp-for="TenSach" />
+        <span asp-validation-for="TenSach" class="text-error"></span>
+    </div>
+
+    <div class="form-row">
+        <label asp-for="Gia"></label>
+        <input asp-for="Gia" type="text" />
+        <span asp-validation-for="Gia" class="text-error"></span>
+    </div>
+
+    <div class="form-row">
+        <label asp-for="Anh"></label>
+        <input asp-for="Anh" placeholder="vd: Img_1.jpg" />
+        <span asp-validation-for="Anh" class="text-error"></span>
+    </div>
+
+    <div class="form-row">
+        <input type="submit" value="Create" class="btn-buy btn-create" />
+        <a asp-action="Index" class="btn-back">Quay lại</a>
+    </div>
+</form>

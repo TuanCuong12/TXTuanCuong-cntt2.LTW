@@ -1,0 +1,54 @@
+﻿.form-box {
+    background: #fff;
+    max-width: 560px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.1)
+}
+
+.form-row {
+    margin-bottom: 16px
+}
+
+    .form-row label {
+        display: block;
+        font-weight: 600;
+        color: #125e6e;
+        margin-bottom: 4px
+    }
+
+    .form-row input[type=text], .form-row input:not([type]), .form-row select {
+        width: 100%;
+        padding: 8px 10px;
+        border: 1px solid #c5d3d8;
+        border-radius: 4px;
+        font-size: 14px
+    }
+
+.text-error, .field-validation-error {
+    color: #d9531e;
+    font-size: 13px;
+    display: block;
+    margin-top: 4px
+}
+
+.input-validation-error {
+    border-color: #d9531e !important
+}
+
+.btn-create {
+    padding: 9px 22px;
+    font-size: 14px
+}
+
+.btn-back {
+    margin-left: 12px;
+    color: #125e6e;
+    font-size: 14px
+}
+
+.empty {
+    padding: 20px;
+    text-align: center;
+    color: #6b7f86
+}
