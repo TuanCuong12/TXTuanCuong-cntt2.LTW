@@ -1,0 +1,14 @@
+﻿@using txtc_241230671_QLTS_DE2.Helpers
+@model List<LoaiTaiSan>
+
+<ul class="menu" id="menu">
+    <li class="active">
+        <a asp-controller="Home" asp-action="Index" class="js-loai" data-id="0">@AppInfo.HoTen</a>
+    </li>
+    @foreach (var l in Model)
+    {
+        <li>
+            <a asp-controller="Home" asp-action="Index" asp-route-maLoai="@l.MaLoai" class="js-loai" data-id="@l.MaLoai">@l.TenLoai</a>
+        </li>
+    }
+</ul>
