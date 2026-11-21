@@ -1,0 +1,27 @@
+﻿@model TaiSanListViewModel
+
+<div class="section-head">
+    <h3>@Model.Title</h3>
+    <a asp-controller="Home" asp-action="Create">Thêm tài sản &rsaquo;</a>
+</div>
+
+@if (Model.DanhSach.Count == 0)
+{
+    <p class="empty">Chưa có tài sản nào.</p>
+}
+else
+{
+    <div class="grid">
+        @foreach (var t in Model.DanhSach)
+        {
+            <div class="asset-card">
+                <a href="#"><img src="~/images/@t.Anh" alt="@t.TenTs" /></a>
+                <h2>@t.TenTs</h2>
+                <div class="asset-foot">
+                    <span class="price">@t.NguyenGia?.ToString("0") tr</span>
+                    <button class="btn-buy">Chi tiết</button>
+                </div>
+            </div>
+        }
+    </div>
+}
