@@ -1,0 +1,24 @@
+﻿.form-hh {
+    padding: 10px 0
+}
+
+.form-row {
+    margin-bottom: 12px
+}
+
+    .form-row label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 3px
+    }
+
+    .form-row input[type=text], .form-row input:not([type]), .form-row select {
+        width: 300px;
+        padding: 5px
+    }
+
+.text-error, .field-validation-error {
+    color: #c00;
+    font-size: 13px;
+    display: block
+}
